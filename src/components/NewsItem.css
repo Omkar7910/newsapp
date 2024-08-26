@@ -1,0 +1,50 @@
+.news-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .badge-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #333;
+  }
+  
+  .read-more {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.2s;
+  }
+  
+  .read-more:hover {
+    background-color: #0056b3;
+  }
+  
